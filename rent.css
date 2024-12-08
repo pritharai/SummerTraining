@@ -1,0 +1,103 @@
+*{
+    margin: -10px;
+
+}
+#landing {
+    background: url('./assets/rentland.avif') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+    width: 100%;
+    /* margin: 0px; */
+    /* margin-right: -30px; */
+}
+.landing img{
+    width: 100%;
+    
+
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #FE6F77;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    display: inline-block;
+    background-color: #FE3C47;
+}
+
+
+section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+section p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery .item {
+    flex: 1 1 calc(33.333% - 1rem);
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.gallery .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rent-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rent-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.rent-form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.rent-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+

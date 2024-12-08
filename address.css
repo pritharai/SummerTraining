@@ -1,0 +1,133 @@
+.login-nav{
+    background-color: #F6995C;
+    height: 100px;
+    margin-top: -5%;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    /* margin-inline: 0px; */
+    /* box-shadow: inset; */
+    border: 1px solid #ccc;
+    padding: 45px;
+    margin-inline: 20%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0.1, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.details{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+    /* margin-top: 30px; */
+    width: 60%;
+    
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+    align-content: center;
+    gap: 20px;
+    width: 80%;
+}
+form input{
+    height: 38px;
+    width: 100%;
+    border-style: none;
+    border-bottom: 2px solid grey;
+}
+.field{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 5px;
+
+}
+.form-icon{
+    z-index: 1;
+}
+.details button{
+    height: 40px;
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 22px;
+    cursor: pointer;
+}
+.custom-btn{
+    width: 80px;
+    background-color: #FEAE6F;
+}
+.select{
+    height: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+/* .address-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-left: 30px;
+    padding: 20px;
+    align-items: center;
+    
+    border-radius: 20px;
+    width: 45%;
+    flex-wrap: nowrap;
+    border: 1px solid #ccc;
+    
+    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0.1, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+} */
+.address-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.address-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.address-card {
+    margin-bottom: 15px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-btn {
+    width: 48%;
+    text-align: center;
+}
+
+
